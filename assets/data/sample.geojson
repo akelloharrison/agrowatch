@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.58, 0.35] },
+      "properties": {
+        "name": "Farm A",
+        "pest": "Armyworm",
+        "risk": "High",
+        "action": "Apply pesticide"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.45, 0.40] },
+      "properties": {
+        "name": "Farm B",
+        "pest": "Locust",
+        "risk": "Medium",
+        "action": "Scout fields"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[32.50,0.30],[32.60,0.30],[32.60,0.40],[32.50,0.40],[32.50,0.30]]]
+      },
+      "properties": {
+        "zone": "Zone 1",
+        "pest": "Armyworm",
+        "risk": "Very High",
+        "action": "Alert extension officer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[32.40,0.32],[32.48,0.32],[32.48,0.38],[32.40,0.38],[32.40,0.32]]]
+      },
+      "properties": {
+        "zone": "Zone 2",
+        "pest": "Locust",
+        "risk": "Low",
+        "action": "Monitor"
+      }
+    }
+  ]
+}
